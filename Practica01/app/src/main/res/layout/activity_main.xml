@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="694dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/linear"
+        tools:ignore="MissingConstraints,UnknownId"
+        tools:layout_editor_absoluteX="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="122dp"
+            android:layout_height="40dp"
+            android:text="Practica 01"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtnuno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ingresa un numero"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtndos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ngresa un numero"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtVResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSuma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Suma" />
+
+        <Button
+            android:id="@+id/btnResta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resta" />
+
+        <Button
+            android:id="@+id/btnMultip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiplicar" />
+
+        <Button
+            android:id="@+id/btnDividir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="División" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
