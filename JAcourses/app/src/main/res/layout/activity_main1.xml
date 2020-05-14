@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="670dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/imgBtnRegresar"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_arrow_back_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="25dp"
+                android:textColor="#000"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:text="JAVASCRIPT" />
+
+        </LinearLayout>
+
+        <VideoView
+            android:id="@+id/video1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/btnVerVideo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visualizar" />
+
+        <VideoView
+            android:id="@+id/video2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnVerVideo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visualizar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="676dp"
+        android:layout_gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/imgBtnInicio"
+            android:layout_width="135dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/ic_home_black_24dp"
+            tools:ignore="VectorDrawableCompat"
+            android:tooltipText="Inicio"/>
+        <ImageButton
+            android:id="@+id/imgBtnCursos"
+            android:layout_width="135dp"
+            android:layout_height="54dp"
+            app:srcCompat="@drawable/ic_book_black_24dp"
+            tools:ignore="VectorDrawableCompat"
+            android:tooltipText="Cursos"/>
+
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="135dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:text="Salir" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

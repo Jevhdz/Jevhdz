@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JACourses</string>
+    <string name="title_activity_inicio">InicioActivity</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Cursos</string>
+    <string name="title_notifications">Perfil</string>
+    <string name="title_javascript">Javascript</string>
+</resources>

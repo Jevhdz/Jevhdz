@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CursosActivity"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Bienvenido(a):"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/logojacourses" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="&quot;El Aprendizaje es la herramienta para enfrentarnos al mundo de oportunidades profesionales y laborales.&quot;"
+            android:textAlignment="center"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="130dp"
+            android:layout_height="230px"
+            android:layout_marginLeft="15dp"
+            android:clickable="true"
+            android:foreground="@drawable/javascript"
+            app:cardCornerRadius="2dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="130dp"
+            android:layout_height="230px"
+            android:layout_marginLeft="15dp"
+            android:clickable="true"
+            android:foreground="@drawable/laravel" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card3"
+            android:layout_width="130dp"
+            android:layout_height="230px"
+            android:layout_marginLeft="15dp"
+            android:clickable="true"
+            android:foreground="@drawable/sqlserver" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card4"
+            android:layout_width="130dp"
+            android:layout_height="230px"
+            android:layout_marginLeft="15dp"
+            android:clickable="true"
+            android:foreground="@drawable/python" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card5"
+            android:layout_width="130dp"
+            android:layout_height="230px"
+            android:layout_marginLeft="15dp"
+            android:clickable="true"
+            android:foreground="@drawable/disenoweb" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card6"
+            android:layout_width="130dp"
+            android:layout_height="230px"
+            android:layout_marginLeft="15dp"
+            android:clickable="true"
+            android:foreground="@drawable/android" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="510dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card7"
+            android:layout_width="130dp"
+            android:layout_height="230px"
+            android:layout_marginLeft="15dp"
+            android:clickable="true"
+            android:foreground="@drawable/php" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card8"
+            android:layout_width="130dp"
+            android:layout_height="230px"
+            android:layout_marginLeft="15dp"
+            android:clickable="true"
+            android:foreground="@drawable/cisharp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card9"
+            android:layout_width="130dp"
+            android:layout_height="230px"
+            android:layout_marginLeft="15dp"
+            android:clickable="true"
+            android:foreground="@drawable/java" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="676dp"
+        android:layout_gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/imgBtnInicio"
+            android:layout_width="135dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/ic_home_black_24dp"
+            tools:ignore="VectorDrawableCompat"
+            android:tooltipText="Inicio"/>
+        <ImageButton
+            android:id="@+id/imgBtnCursos"
+            android:layout_width="135dp"
+            android:layout_height="54dp"
+            app:srcCompat="@drawable/ic_book_black_24dp"
+            tools:ignore="VectorDrawableCompat"
+            android:tooltipText="Cursos"/>
+
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="135dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:text="Salir" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
